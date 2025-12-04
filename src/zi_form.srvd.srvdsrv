@@ -1,0 +1,10 @@
+@EndUserText.label: 'ZI_FORM'
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZI_HEADER_FORM'
+  }
+}
+define service ZI_FORM {
+  expose ZI_HEADER_FORM;
+  expose ZI_ITEM_FORM;
+}
